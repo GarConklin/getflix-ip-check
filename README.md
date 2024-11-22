@@ -45,28 +45,36 @@ https://github.com/GarConklin/getflix-ip-check/blob/main/extipchange.ps1
 
 ## **Built-In  Example**
 environment:  
-    CHECK_INTERVAL_SECONDS=300    # default number of seconds to recheck ecternal IP
+    
+	CHECK_INTERVAL_SECONDS=300    # default number of seconds to recheck ecternal IP
+	
     GETFLIX_API_Key=  Getflix API Key found https://www.getflix.com.au/manage/apps
 
 
 PULL
+...
 docker pull garconklin/getflix-ip-check:1.0
+...
 
 BUILD
+...
 docker build -t getflix-ip-check .
+...
 
 VOLUME 
+...
 #contains log files for changed IP and the ip-saved.txt containing the external IP maps to internal
 /script/data   
+...
 
-
-RUN From
-Examples:
-
-{Windows PowerShell}
+##Examples:
+#{Windows PowerShell}
+...
 docker run -d -rm --name getflix-ip-check-cont -e CHECK_INTERVAL_SECONDS=300 -e GETFLIX_API_Key="b2caeaff-3e2e-211c-e422-bba24758671" -v ${pwd}\data:/scripts/data garconklin/getflix-ip-check:1.0
+...
 
-{Linux}
+#{Linux}
+...
 docker run -d -rm --name getflix-ip-check-cont -e CHECK_INTERVAL_SECONDS=300 -e GETFLIX_API_Key="b2caeaff-3e2e-211c-e422-bba24758671" -v $(pwd)/data:/scripts/data garconklin/getflix-ip-check:1.0
-
+...
 
