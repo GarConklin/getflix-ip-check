@@ -39,6 +39,7 @@ garconklin/getflix-ip-check
 
 ## **Dockerfile**
 https://github.com/GarConklin/getflix-ip-check/blob/main/Dockerfile
+https://github.com/GarConklin/getflix-ip-check/blob/705fe33556aa1471b0b310e1a5e928fdf29bca05/Dockerfile#L1-L20
 
 ## Powershell Script used
 https://github.com/GarConklin/getflix-ip-check/blob/main/extipchange.ps1
