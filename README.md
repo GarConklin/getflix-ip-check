@@ -30,7 +30,7 @@ Example from docker logs
   
 - Tags:mcr.microsoft.com/powershell:latest
 
-## **Github Repo**  
+## **Docker Repo**  
 garconklin/getflix-ip-check
 - https://hub.docker.com/r/garconklin/getflix-ip-check
 ---
