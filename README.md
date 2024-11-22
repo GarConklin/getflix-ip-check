@@ -2,17 +2,24 @@
 CREATED BY: Gar Conklin
 2024-11-21 
 
-Example from docker logs `n
-2024-11-22 10:17:56 Starting... `n
+Example from docker logs 
+
+2024-11-22 10:17:56 Starting... 
+
 2024-11-22 10:17:56 Using API key: b2caeaff-3e2e-211c-e422-bba24758671
+
 2024-11-22 10:17:56 data\ exists
+
 2024-11-22 10:17:57 IP loaded from data\ip-saved.txt - last saved ip: 129.222.99.253
+
 2024-11-22 10:17:57 No change in IP. Current IP is still 129.222.99.253
+
 2024-11-22 10:17:57 Sleeping for 300 seconds
+
 2024-11-22 10:23:17 No change in IP. Current IP is still 129.222.99.253
+
 2024-11-22 10:23:17 Sleeping for 300 seconds
-2024-11-22 10:28:37 No change in IP. Current IP is still 129.222.99.253
-2024-11-22 10:28:37 Sleeping for 300 seconds
+
 
 ## **Docker**
 - Image: mcr.microsoft.com/powershell
