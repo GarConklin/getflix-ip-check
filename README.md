@@ -1,6 +1,5 @@
 # Docker container running powershell that checks for external IP change and updates Getflix Registered IP
-CREATED BY: Gar Conklin
-2024-11-21 
+CREATED BY: Gar Conklin    DATE: 2024-11-21 
 
 Example from docker logs 
 
@@ -39,10 +38,10 @@ garconklin/getflix-ip-check
 
 
 ## **Dockerfile**
-
+https://github.com/GarConklin/getflix-ip-check/blob/main/Dockerfile
 
 ## Powershell Script used
-
+https://github.com/GarConklin/getflix-ip-check/blob/main/extipchange.ps1
 
 ## **Built-In  Example**
 environment:  
