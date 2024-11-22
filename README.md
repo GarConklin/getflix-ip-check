@@ -43,6 +43,7 @@ https://github.com/GarConklin/getflix-ip-check/blob/705fe33556aa1471b0b310e1a5e9
 
 ## Powershell Script used
 https://github.com/GarConklin/getflix-ip-check/blob/main/extipchange.ps1
+https://github.com/GarConklin/getflix-ip-check/blob/f500aa3268cd1f05355463b458777b5cfad8bfeb/extipchange.ps1#L1-L109
 
 ## **Built-In  Example**
 environment:  
