@@ -75,11 +75,4 @@ docker build -t getflix-ip-check .
 
 
 ## *Examples:*
-#{Windows PowerShell}
-
-docker run -d -rm --name getflix-ip-check-cont -e CHECK_INTERVAL_SECONDS=300 -e GETFLIX_API_Key="b2caeaff-3e2e-211c-e422-bba24758671" -v ${pwd}\data:/scripts/data garconklin/getflix-ip-check:1.0
-
-#{Linux}
-
-docker run -d -rm --name getflix-ip-check-cont -e CHECK_INTERVAL_SECONDS=300 -e GETFLIX_API_Key="b2caeaff-3e2e-211c-e422-bba24758671" -v $(pwd)/data:/scripts/data garconklin/getflix-ip-check:1.0
-
+docker run -d -rm --name getflix-ip-check-cont -e CHECK_INTERVAL_SECONDS=300 -e GETFLIX_API_Key="b2caeaff-3e2e-211c-e422-bba24758671" -v //c/mydocker/getflixip-check/data:/scripts/data garconklin/getflix-ip-check:2.1
